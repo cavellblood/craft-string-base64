@@ -2,8 +2,6 @@
 
 Twig filters to base64 encode/decode a string.
 
-![Screenshot](resources/img/plugin-logo.png)
-
 ## Requirements
 
 This plugin requires Craft CMS 3.1.0 or later.
@@ -24,6 +22,25 @@ To install the plugin, follow these instructions.
 
 ## Using String Base64
 
--Insert text here-
+### Encoding
+
+Input:
+
+    {{ "some string" | base64enc }}
+    
+Output:
+
+    c29tZSBzdHJpbmc=
+    
+    
+### Decoding
+
+Input:
+
+    {{ "c29tZSBzdHJpbmc=" | base64dec }}
+    
+Output:
+
+    some string
 
 Brought to you by [Cavell L. Blood](https://cavellblood.com)
