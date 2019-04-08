@@ -1,5 +1,5 @@
 {
-    "name": "cavellblood/string-base64",
+    "name": "cavellblood/craft-string-base64",
     "description": "Twig filters to base64 encode/decode a string.",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -8,7 +8,9 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "string base64"
+        "string base64",
+        "encode",
+        "decode"
     ],
     "support": {
         "docs": "https://github.com/cavellblood/craft-string-base64/blob/master/README.md",
