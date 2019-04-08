@@ -2,7 +2,7 @@
     "name": "cavellblood/craft-string-base64",
     "description": "Twig filters to base64 encode/decode a string.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
